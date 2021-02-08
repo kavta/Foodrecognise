@@ -51,6 +51,14 @@ const Display = () => {
           progress={fiber}
           backgroundColor={"white"}
         />
+         <Text>Carbohydtare</Text>
+        <AnimatedProgressWheel
+          size={100}
+          width={10}
+          color={"blue"}
+          progress={carbo}
+          backgroundColor={"white"}
+        />
       </View>
     </View>
   );
